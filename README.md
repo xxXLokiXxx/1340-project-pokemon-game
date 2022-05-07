@@ -95,19 +95,23 @@ Inside the "pokemon_group" struct, pokemon structs will be included (nested stru
 
 ### File input/output (e.g., for loading/saving game status) ###
 
-Store location of player, set of pokemon ,status of pokemon.???
-3 slots of save/load are available by game status commands.
+The program takes input of a text file (pokemon_list.txt), which contains the stats of all 151 gen 1 pokemons. This file input feature allows update for future pokemons (gen 2, 3, 4), or allows the easy modification of stats of certain pokemons.
 
 ### Program codes in multiple files ###
 
-file of main game code
-file of map
-file of battle system
-file of pokemon library
-files of saving and loading
+The program codes are segemented into different files, including:
 
-### Proper indentation and naming styles ###
+* file of main game code (pokemon_main.cpp)
+* file of generation of pokemon and battle preperation (pokemon_gen_prep.cpp)
+  * Header file (pokemon_gen_prep.h)
+* header file of struct and nested struct (pokemon_struct.h)
+* file of pokemon battle (print_battle.cpp)
+  * Header file (print_battle.h)
+* file of input input of pokemon stats (pokemon_list_input.cpp)
+  * Header file (pokemon_list_input.h)
+* text file of the stats of all 151 gen 1 pokemons (pokemon_list.txt)
 
-
-### In-code documentation ###
+## Compile Instruction
+----
+Run ```phpmake game``` for compilation of the game. Enter ```php./game``` to start the game.
 
