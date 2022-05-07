@@ -3,7 +3,7 @@
 
 using namespace std;
 
-double Poke_Attack_Bonus(pokemon current_Mypokemons, pokemon current_Rivalpokemons);
+double Poke_Attack_Bonus(pokemon current_Mypokemons, pokemon current_Rivalpokemons);     //various functions declared
 double Poke_Attack(pokemon current_Attpokemons, pokemon current_Defpokemons);
 void damage_calculation(pokemon &current_Defpokemons, double Dmg_dealt);
 void print_attk_sentence(pokemon current_Mypokemons, pokemon current_Rivalpokemons);
