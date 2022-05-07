@@ -37,6 +37,7 @@ Healing option is available during battling. Amount of HP points healed will be 
 
 Types of pokemons and the type countering system are strictly followed to the offcial pokemon type system.
 Link for more info of the type: https://pokemondb.net/type .
+
 For certain types of pokemons that counter other types of pokemons, the attack damage points are mulitiplied by 1.5 times and 2 time. The advantages will be shown as " The attack is very effective." will be printed out on screen. On the other hand, " The attack is not very effective." will be printed out if it's not effective, attack points may be mulitpied by 0.5 according to the types of pokemons.
 
 ### 5. Quitting in mid-game ###
