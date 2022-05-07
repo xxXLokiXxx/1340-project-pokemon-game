@@ -8,17 +8,16 @@ Identification of the team member
   
 Game description
 -- 
-It will be a C/C++ program game based off of Pokemon rpg game's combat system.
+It will be a C++ program game based off of Pokemon's combat system.
 ![This is an image](https://static.wikia.nocookie.net/essentialsdocs/images/7/70/Battle.png/revision/latest?cb=20190219202514)!
 
-Battling system is the highlight of the whole pokemon game. Trainers can raise their pokemons' levels via repetitive battles against pokemons from another trainers. The higher level the pokemons reach, the stronger they get, and this provides satisfaction for the players roleplaying pokemon trainers as they grow stronger and stronger with their pokemons throughout the game.
+Battling system is the highlight of the whole pokemon game. Trainers can test out their pokemons' strength by fightning with other's pokemon. The pokemon game is known to be one of the most nostalgic game in console gaming history, with the distinctive and spactacular pokemon fighting system interface.
 
 
-The Pokémon battling system is turn-based. When the player challenges a Trainer or encounters a wild Pokémon, the screen changes to a battle scene with the player's 
-Pokémon, the opposing Pokémon, their respective HP bars and an option menu. At any time, the player may carry up to six Pokémon in his or her active party; the first 
-Pokémon in the lineup is automatically sent into battle. At the start of each turn, both sides can choose to attack, use an item, switch the Pokémon for another in 
-their party or attempt to flee from battle (against a wild Pokémon). If both sides attack, the one who goes first is determined by Speed, although some moves, items 
-and effects can override this. If either side chooses any other option, that action is performed before the attacks. (From wiki)
+The Pokémon battling system is turn-based. When the player challenges a Trainer or encounters a wild Pokémon, the screen changes to a battle scene with the player's Pokémon, the opposing Pokémon, their respective HP and an option menu. At any time, the player may carry up to six Pokémon in his or her active party; the first Pokémon in the lineup is automatically sent into battle. 
+
+
+
 
 Introduction of the game rules
 --
