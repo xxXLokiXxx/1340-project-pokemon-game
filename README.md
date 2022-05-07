@@ -56,9 +56,9 @@ vector for library of pokemons.
 structs for pokemons' battling indexes. 
 eg:
 struct pokemon {
-  int Number;
-  string Name;
-  string Type1;
+ * int Number;
+ * string Name;
+ * string Type1;
   string Type2;
   int Total;
   int HP;
