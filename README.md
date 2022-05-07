@@ -2,8 +2,7 @@
 ------
 
 
-Identification of the team member
-  Group member: Lo Lok Fung
+Done by Lo Lok Fung
   
   
 ## Game description and rules
