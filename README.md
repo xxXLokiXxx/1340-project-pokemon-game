@@ -2,7 +2,7 @@
 ------
 
 
-Done by Lo Lok Fung
+Team member: Lo Lok Fung
   
   
 ## Game description and rules
