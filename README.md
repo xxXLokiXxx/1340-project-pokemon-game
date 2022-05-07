@@ -19,28 +19,28 @@ Our game will bascially minic the original game play flow of Pokemon battling sc
 
 After choosing pokemons, players can fight with the opponent(NPC) with its 6 randomised choices of pokemons. Also, the game allows options for the player to attack and heal to fight with NPC's pokemons. Be aware that certain types of pokemons can counter certain types of pokemons. When your pokemons defeat all 6 opponent's pokemons, you win! If the opponent do that to you, you lose!
 
-A list of features in game
--- 
-1.Pokemon selection and randomization
--- 
+## A list of features in game
+--
+### 1.Pokemon selection and randomization ###
+
 You can choose 6 pokemons from generation 1 to fight for you. The list of all pokemons in generation 1 is provided with ids and names. The name of each pokemon you choose will appear on the screen as well as its combat power. Besides, you can also randomised your choices of pokemon from 151 gen 1 pokemon to give you a bit of challenge to play with NPC/the compputer! Also, the computer's 6 pokemons are randomised too!
 
-2.Damage dealing system
--- 
+### 2.Damage dealing system ###
+
 The damage system is as follows. Amount of damage points will be shown on screen after the attack move is done. Damages done by pokemons depends on the randomisation and the attack stats of the pokemon. The damage points are randomised in the range from 0 to the damage stat of the pokemon as the upper limit. So the stronger the pokemon, the more damage it is likely to deal to the opponent. I've tested out with this range of randomisation, playability is at maximum, so that pokemons won't be always one-shotted or stay too long to the point that makes the game boring. 
 
-3.Hp healing system
--- 
+### 3.Hp healing system ###
+
 Healing option is available during battling. Amount of HP points healed will be shown on screen after the attack move is done. Hp healed by pokemons depends current pokemon HP and the original HP of the pokemon. The HP points healed are randomised in the range from 0 to the "difference between the original HP of the pokemon and the current pokemon HP" as the upper limit. Therefore, it is more favored to heal when you are in low health, as there is a higher chance to have more HP points healed. It is more favored to heal when the opponent attack is less effective to you. 
 
-4.Pokémon types system
--- 
+### 4.Pokémon types system ###
+
 Types of pokemons and the type countering system are strictly followed to the offcial pokemon type system.
 Link for more info of the type: https://pokemondb.net/type
 For certain types of pokemons that counter other types of pokemons, the attack damage points are mulitiplied by 1.5 times and 2 time. The advantages will be shown as " The attack is very effective." will be printed out on screen. On the other hand, " The attack is not very effective." will be printed out if it's not effective, attack points may be mulitpied by 0.5 according to the types of pokemons.
 
-5.Quitting in mid-game
--- 
+### 5.Quitting in mid-game ###
+
 Escaping is always an option for quitters!
 
 Coding Elements
