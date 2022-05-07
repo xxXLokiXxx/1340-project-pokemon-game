@@ -113,5 +113,5 @@ The program codes are segemented into different files, including:
 
 ## Compile Instruction
 ----
-Run ```phpmake game``` for compilation of the game. Enter ```php./game``` to start the game.
+Run ```make game``` for compilation of the game. Enter ```./game``` in order to start the game.
 
