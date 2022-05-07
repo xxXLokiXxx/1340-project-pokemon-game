@@ -68,22 +68,22 @@ Inside the "pokemon" struct, stats of a pokemon will be stored, including:
   * string form of Name (name of pokemon)
   * string Type1 (dominant type of pokemon)
   * string Type2; (sub-type of pokemon)
-  * int Total; (Combat power of pokemon, to compare which pokemon is more powerful)
-  * int HP (HP of pokemon)
-  * int Attack (Attack stat of pokemon)
-  * int Defense (Defense stat of pokemon, not used in the the current game, could be used in future development/update version)
-  * int SpAtk (Special attack stat of pokemon, not used in the the current game, could be used in future development)
-  * int SpDef (Special defence stat of pokemon, not used in the the current game, could be used in future development)
-  * int Speed (Speed of pokemon, not used in the the current game, could be used in future development/update version)
+  * integer form of Total (Combat power of pokemon, to compare which pokemon is more powerful)
+  * integer form of HP (HP of pokemon)
+  * integer form of Attack (Attack stat of pokemon)
+  * integer form of Defense (Defense stat of pokemon, not used in the the current game, could be used in future development/update version)
+  * integer form of SpAtk (Special attack stat of pokemon, not used in the the current game, could be used in future development)
+  * integer form of SpDef (Special defence stat of pokemon, not used in the the current game, could be used in future development)
+  * integer form of Speed (Speed of pokemon, not used in the the current game, could be used in future development/update version)
 
 Inside the "pokemon_group" struct, pokemon structs will be included (nested struct), representing the 6 pokemons (from A to F) brought to battle:
 
-  *pokemon A 
-  *pokemon B 
-  *pokemon C 
-  *pokemon D 
-  *pokemon E 
-  *pokemon F 
+  * pokemon A 
+  * pokemon B 
+  * pokemon C 
+  * pokemon D 
+  * pokemon E 
+  * pokemon F 
   
 ### Dynamic memory management ###
 
