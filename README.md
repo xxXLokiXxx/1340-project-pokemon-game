@@ -23,7 +23,7 @@ After choosing pokemons, players can fight with the opponent(NPC) with its 6 ran
 
 ### 1. Pokemon selection and randomization ###
 
-You can choose 6 pokemons from generation 1 to fight for you. The list of all pokemons in generation 1 is provided with ids and names. The name of each pokemon you choose will appear on the screen as well as its combat power. Besides, you can also randomised your choices of pokemon from 151 gen 1 pokemon to give you a bit of challenge to play with NPC/the compputer! Also, the computer's 6 pokemons are randomised too!
+You can choose 6 pokemons from generation 1 to fight for you. The list of all pokemons in generation 1 is provided with ids and names. The name of each pokemon you choose will appear on the screen as well as its combat power. Besides, you can also randomised your choices of pokemon from 151 gen 1 pokemon to give you a bit of challenge to play with NPC/the computer! Also, the computer's 6 pokemons are randomised too!
 
 ### 2. Damage dealing system ###
 
