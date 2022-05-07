@@ -87,8 +87,11 @@ Inside the "pokemon_group" struct, pokemon structs will be included (nested stru
   
 ### Dynamic memory management ###
 
-struct vectors are used to store pokemon status instead of arrays
-2d vectors are used to store pokemon type chart instead of 2d arrays
+* Struct vectors are used to store 151 "pokemon" struct (gen 1 pokemons stats) instead of arrays.
+
+* 2D vectors are used to store pokemon type chart instead of 2D arrays. Push_back function is used to construct the 2D vectors.     The elements in 2D vectors follow the order of "NORMAL", "FIRE", "WATER", "ELECTRIC", "GRASS", "ICE", "FIGHTING", "POISON",       "GROUND", "FLYING", "PSYCHIC", "BUG" ,"ROCK", "GHOST", "DRAGON" ,"DARK" ,"STEEL", "FAIRY".
+
+* Since new/malloc functions aren't used, memories don't have to be freed afterwards.
 
 ### File input/output (e.g., for loading/saving game status) ###
 
