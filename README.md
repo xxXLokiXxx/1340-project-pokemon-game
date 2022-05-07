@@ -6,7 +6,7 @@ Identification of the team member
   Group member: Lo Lok Fung
   
   
-## Game description and introduction of game rules
+## Game description and rules
 
 It will be a C++ program game based off of Pokemon's combat system.
 ![This is an image](https://static.wikia.nocookie.net/essentialsdocs/images/7/70/Battle.png/revision/latest?cb=20190219202514)!
@@ -36,7 +36,7 @@ Healing option is available during battling. Amount of HP points healed will be 
 ### 4.Pokémon types system ###
 
 Types of pokemons and the type countering system are strictly followed to the offcial pokemon type system.
-Link for more info of the type: https://pokemondb.net/type
+Link for more info of the type: https://pokemondb.net/type .
 For certain types of pokemons that counter other types of pokemons, the attack damage points are mulitiplied by 1.5 times and 2 time. The advantages will be shown as " The attack is very effective." will be printed out on screen. On the other hand, " The attack is not very effective." will be printed out if it's not effective, attack points may be mulitpied by 0.5 according to the types of pokemons.
 
 ### 5.Quitting in mid-game ###
@@ -44,14 +44,14 @@ For certain types of pokemons that counter other types of pokemons, the attack d
 Escaping is always an option for quitters!
 
 Coding Elements
--- 
-### Generation of random game sets or events ###
 --
+### Generation of random game sets or events ###
+
 Random set of pokemons of the enemy.
 Random lv of pokemons of the enemy.
 
 ### Data structures for storing game status ###
---
+
 vector for library of pokemons.
 structs for pokemons' battling indexes. 
 eg:
@@ -70,17 +70,17 @@ struct pokemon {
 };  
 
 ### Dynamic memory management ###
--- 
+
 struct vectors are used to store pokemon status instead of arrays
 2d vectors are used to store pokemon type chart instead of 2d arrays
 
 ### File input/output (e.g., for loading/saving game status) ###
---
+
 Store location of player, set of pokemon ,status of pokemon.???
 3 slots of save/load are available by game status commands.
 
 ### Program codes in multiple files ###
--- 
+
 file of main game code
 file of map
 file of battle system
@@ -88,7 +88,7 @@ file of pokemon library
 files of saving and loading
 
 ### Proper indentation and naming styles ###
---
+
 
 ### In-code documentation ###
---
+
