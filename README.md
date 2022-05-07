@@ -50,7 +50,7 @@ Coding Elements
 Randomisation of the game is demostrated in three ways:
 
 * Chooing pokemons
-  For the start of the game, player can choose the option to randomise his or her choices of pokemons. 6 pokemons are chosen 
+  *For the start of the game, player can choose the option to randomise his or her choices of pokemons. 6 pokemons are chosen 
   randomly from 151 pokemons in gen 1 for player to bring to the battle. Opponents pokemons are randomised automatically.
 * Attack Damages
   The damage points are randomised in the range from 0 to the damage stat of the pokemon as the upper limit. So the stronger the   pokemon, the more damage it is likely to deal to the opponent. This is applied to both opponent and the player. 
