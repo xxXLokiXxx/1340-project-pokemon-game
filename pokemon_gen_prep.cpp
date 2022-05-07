@@ -16,7 +16,7 @@ using namespace std;
 
 vector<pokemon> pokemons;
 
-void catch_poke_input(int &poke_chosen_id) {
+void catch_poke_input(int &poke_chosen_id) {    // To only allow id of 1-151 pokemons be selected (input is id entered by user)
   cin >> poke_chosen_id;
   while (poke_chosen_id > 151 || poke_chosen_id < 1 ) {
     cin.clear();
@@ -27,11 +27,11 @@ void catch_poke_input(int &poke_chosen_id) {
   }
 }
 
-void listing_allpoke(){
+void listing_allpoke(){                                           // function to list all the gen 1 pokemon with their ids and names
   cout << "Welcome to Pokemon battling system !!" << endl << endl;
   cout << "A list of 1st gen pokemon available (id<->name):" << endl;
   for (int i = 1; i < 152; i++ ) {
-    if ((i % 5) == 0) {
+    if ((i % 5) == 0) {                                 //for loop to loop through pokemons, 5 pokemons printed out per line
       cout << "   " << setw(3)  << pokemons[i].Number << setw(12) << setfill(' ') << pokemons[i].Name << endl;
     }
     else {
@@ -41,10 +41,10 @@ void listing_allpoke(){
   cout << endl << endl;
 }
 
-void generate_self_poke(pokemon_group &Mypokemons) {
-  int poke_chosen_id = 1;
+void generate_self_poke(pokemon_group &Mypokemons) {   //To put pokemon chosen by user to the struct of my pokemons
+  int poke_chosen_id = 1;                              // input is the struct of Mypokemons (space for collection of user's 6 pokemons)
   cout << "Choose your first pokemon in your squad (Enter the id of pokemon to choose): ";
-  catch_poke_input(poke_chosen_id);
+  catch_poke_input(poke_chosen_id);                      // ask for input of desired pokemons
   Mypokemons.A = pokemons[poke_chosen_id];
   cout << "You chose" << " " << Mypokemons.A.Name << "! (Combat power: " << Mypokemons.A.Total << ")" <<endl << endl;
 
@@ -76,7 +76,7 @@ void generate_self_poke(pokemon_group &Mypokemons) {
 }
 
 void print_ours_pokemon(pokemon_group Rivalpokemons) {
-  cout << endl;
+  cout << endl;                                   // input struct of my pokemosn to print out each of users' pokemons name and combat power
   cout << "The list of your pokemons: " << endl <<endl;
   cout << setw(12) <<  "First pokemon:" << " " << Rivalpokemons.A.Name << "! (Combat power: " << Rivalpokemons.A.Total << ")" <<endl;
   cout << setw(12) <<  "Second pokemon:" << " " << Rivalpokemons.B.Name << "! (Combat power: " << Rivalpokemons.B.Total << ")" <<endl;
@@ -87,7 +87,7 @@ void print_ours_pokemon(pokemon_group Rivalpokemons) {
   cout << endl;
 }
 
-void print_oppo_pokemon(pokemon_group Rivalpokemons) {
+void print_oppo_pokemon(pokemon_group Rivalpokemons) {  // input struct of opponent pokemons to print out each of opponents' pokemons name and combat power
   cout << "The list of opponent pokemons: " << endl <<endl;
   cout << setw(12) <<  "First pokemon:" << " " << Rivalpokemons.A.Name << "! (Combat power: " << Rivalpokemons.A.Total << ")" <<endl;
   cout << setw(12) <<  "Second pokemon:" << " " << Rivalpokemons.B.Name << "! (Combat power: " << Rivalpokemons.B.Total << ")" <<endl;
@@ -98,9 +98,9 @@ void print_oppo_pokemon(pokemon_group Rivalpokemons) {
   cout << endl;
 }
 
-void rand_pokemons(pokemon_group &kemons) {
+void rand_pokemons(pokemon_group &kemons) {     //input of a struct of nested struct of pokemons (collection of pokemons)
   srand(time(NULL));
-  kemons.A = pokemons[(rand() % 151) + 1];
+  kemons.A = pokemons[(rand() % 151) + 1];      //random generate a set of pokemon by seed of time
   kemons.B = pokemons[(rand() % 151) + 1];
   kemons.C = pokemons[(rand() % 151) + 1];
   kemons.D = pokemons[(rand() % 151) + 1];
@@ -108,7 +108,7 @@ void rand_pokemons(pokemon_group &kemons) {
   kemons.F = pokemons[(rand() % 151) + 1];
 }
 
-void rand_ipokemons(pokemon_group &kemons) {
+void rand_ipokemons(pokemon_group &kemons) {   //random generate a set of pokemon by another seed of time*time, so no replication of pokemon
   srand(time(NULL)*time(NULL));
   kemons.A = pokemons[(rand() % 151) + 1];
   kemons.B = pokemons[(rand() % 151) + 1];
