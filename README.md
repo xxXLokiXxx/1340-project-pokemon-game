@@ -47,18 +47,26 @@ Coding Elements
 --
 ### Generation of random game sets or events ###
 
-Random set of pokemons of the enemy.
-Random lv of pokemons of the enemy.
+Randomisation of the game is demostrated in three ways:
 
+* Chooing pokemons
+  For the start of the game, player can choose the option to randomise his or her choices of pokemons. 6 pokemons are chosen 
+  randomly from 151 pokemons in gen 1 for player to bring to the battle. Opponents pokemons are randomised automatically.
+* Attack Damages
+  The damage points are randomised in the range from 0 to the damage stat of the pokemon as the upper limit. So the stronger the   pokemon, the more damage it is likely to deal to the opponent. This is applied to both opponent and the player. 
+* Healing Damages
+  The HP points healed are randomised in the range from 0 to the "difference between the original HP of the pokemon and the
+  current pokemon HP" as the upper limit. This is available only to the player due to the maintainance of game balance.
+  
 ### Data structures for storing game status ###
 
 vector for library of pokemons.
 structs for pokemons' battling indexes. 
 eg:
 struct pokemon {
- * int Number;
- * string Name;
- * string Type1;
+  int Number;
+  string Name;
+  string Type1;
   string Type2;
   int Total;
   int HP;
