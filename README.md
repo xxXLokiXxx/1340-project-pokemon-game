@@ -6,8 +6,8 @@ Identification of the team member
   Group member: Lo Lok Fung
   
   
-Game description and introduction of game rules
--- 
+## Game description and introduction of game rules
+
 It will be a C++ program game based off of Pokemon's combat system.
 ![This is an image](https://static.wikia.nocookie.net/essentialsdocs/images/7/70/Battle.png/revision/latest?cb=20190219202514)!
 
@@ -20,7 +20,7 @@ Our game will bascially minic the original game play flow of Pokemon battling sc
 After choosing pokemons, players can fight with the opponent(NPC) with its 6 randomised choices of pokemons. Also, the game allows options for the player to attack and heal to fight with NPC's pokemons. Be aware that certain types of pokemons can counter certain types of pokemons. When your pokemons defeat all 6 opponent's pokemons, you win! If the opponent do that to you, you lose!
 
 ## A list of features in game
---
+
 ### 1.Pokemon selection and randomization ###
 
 You can choose 6 pokemons from generation 1 to fight for you. The list of all pokemons in generation 1 is provided with ids and names. The name of each pokemon you choose will appear on the screen as well as its combat power. Besides, you can also randomised your choices of pokemon from 151 gen 1 pokemon to give you a bit of challenge to play with NPC/the compputer! Also, the computer's 6 pokemons are randomised too!
@@ -45,12 +45,12 @@ Escaping is always an option for quitters!
 
 Coding Elements
 -- 
-Generation of random game sets or events
+### Generation of random game sets or events ###
 --
 Random set of pokemons of the enemy.
 Random lv of pokemons of the enemy.
 
-Data structures for storing game status
+### Data structures for storing game status ###
 --
 vector for library of pokemons.
 structs for pokemons' battling indexes. 
@@ -69,17 +69,17 @@ struct pokemon {
   int Speed;
 };  
 
-Dynamic memory management
+### Dynamic memory management ###
 -- 
 struct vectors are used to store pokemon status instead of arrays
 2d vectors are used to store pokemon type chart instead of 2d arrays
 
-File input/output (e.g., for loading/saving game status)
+### File input/output (e.g., for loading/saving game status) ###
 --
 Store location of player, set of pokemon ,status of pokemon.???
 3 slots of save/load are available by game status commands.
 
-Program codes in multiple files
+### Program codes in multiple files ###
 -- 
 file of main game code
 file of map
@@ -87,8 +87,8 @@ file of battle system
 file of pokemon library
 files of saving and loading
 
-Proper indentation and naming styles
+### Proper indentation and naming styles ###
 --
 
-In-code documentation
+### In-code documentation ###
 --
