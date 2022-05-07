@@ -113,5 +113,5 @@ The program codes are segemented into different files, including:
 
 ## Compile Instruction
 ----
-Run ```make game``` for compilation of the game. Enter ```./game``` in order to start the game.
+Run ```make game``` for compilation of the game. Enter ```./game``` in order to start the game. Make sure you have pokemon_list.txt in the same directory as the file "game".
 
