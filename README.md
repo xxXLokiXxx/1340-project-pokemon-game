@@ -48,6 +48,9 @@ Coding Elements
 ### Generation of random game sets or events ###
 
 Randomisation of the game is demostrated in three ways:
+* Bullet list
+    * Nested bullet
+        *
 * Chooing pokemons:
 --
    For the start of the game, player can choose the option to randomise his or her choices of pokemons. 6 pokemons are chosen 
