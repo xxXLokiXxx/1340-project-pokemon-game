@@ -67,7 +67,7 @@ Inside the "pokemon" struct, stats of a pokemon will be stored, including:
   * integer form of Number (id of pokemon)
   * string form of Name (name of pokemon)
   * string Type1 (dominant type of pokemon)
-  * string Type2; (sub-type of pokemon)
+  * string Type2 (sub-type of pokemon)
   * integer form of Total (Combat power of pokemon, to compare which pokemon is more powerful)
   * integer form of HP (HP of pokemon)
   * integer form of Attack (Attack stat of pokemon)
